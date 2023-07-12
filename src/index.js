@@ -1,17 +1,26 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-
-import './index.css';
+import './index.scss';
 
 
 //component imports
 import Landing from './components/content/landing/Landing';
+import About from './components/content/about/About';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Landing />
-  </React.StrictMode>
+
+//set route structure to be rendered
+const routes = (
+  <BrowserRouter>
+    <div>
+      <Landing/>
+      <About/>
+    </div>
+  </BrowserRouter>
 );
+
+
+//define root and render routes
+const root = createRoot(document.getElementById('root'));
+root.render(routes);

@@ -1,11 +1,9 @@
-import './Personal.css';
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          Steven Clode
+          ABOUT
         </p>
       </header>
     </div>
