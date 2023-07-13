@@ -1,16 +1,14 @@
 //imports
+@import './components/layout/base.scss';
+@import './components/layout/settings.scss';
 @import './components/content/landing/Landing.scss';
+@import './components/layout/mobile-menu/mobile-menu.scss';
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Karantina";
+  color: #C9EDDC;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
