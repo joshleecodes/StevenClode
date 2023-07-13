@@ -1,2 +1,7 @@
+TO DO:
+
+
+COMPLETED THIS SESSION: 
 - Mobile menu
-- SCSS files for bases + settings
+- Set up bases + settings scss partials
+- add animation library

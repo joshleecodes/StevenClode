@@ -1,0 +1,61 @@
+html {
+    width: 100%;
+    font-size: 62.5%;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    font-size: $m-size;
+    font-weight: 300;
+    color: $mint;
+    padding: 0;
+    margin: 0;
+}
+
+.modal-open {
+    overflow: hidden;
+    margin-left: -0.5vw;
+}
+
+.content {
+    z-index: -1;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+h2 {
+    font-size: $mobile-title;
+    letter-spacing: $xs-size;
+}
+
+object{
+    pointer-events: none;
+}
+
+//large tablets
+@media (min-width:800px) {
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+// PC
+@media (min-width: 1280px) {
+    h2 {
+        font-size: $title;
+    }
+}
+    
