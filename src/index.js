@@ -13,6 +13,9 @@ import MobileMenu from './components/layout/mobile-menu/Mobile-menu';
 import Landing from './components/content/landing/Landing';
 import About from './components/content/about/About';
 import Experience from './components/content/experience/Experience';
+import Projects from './components/content/projects/Projects';
+import Contact from './components/content/contact/Contact';
+import Footer from './components/layout/footer/Footer';
 
 AOS.init({
   mirror: true
@@ -27,6 +30,9 @@ const routes = (
       <MobileMenu/>
       <About/>
       <Experience/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   </BrowserRouter>
 );

@@ -1,0 +1,25 @@
+.footer-wrapper {
+    background-color: $yellow;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+    padding: 0 10vw;
+}
+
+.site-logo{
+    width: 30vw;
+}
+
+.footer-signature-wrapper {
+    color: $dark-blue;
+    text-align: end;
+}
+
+.footer-text {
+    margin: 0;
+}

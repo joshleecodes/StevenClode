@@ -1,0 +1,25 @@
+.contact-wrapper {
+    background-color: #393E46;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20vw;
+    font-weight: 300;
+    text-align: center;
+}
+
+.contact-button__mobile {
+    padding: 1vh 2vw;
+    color: $dark-blue;
+    background-color: $yellow;
+    font-weight: 400;
+    font-size: $l-size;
+    border: 1px solid $yellow;
+    margin-top: 3vh;
+    width: -moz-fit-content;
+    width: fit-content;
+    align-self: center;
+    text-decoration: none;
+}
