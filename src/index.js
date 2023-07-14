@@ -9,9 +9,10 @@ import './index.scss';
 
 
 //component imports
-import MobileMenu from './components/layout/mobile-menu/mobile-menu';
+import MobileMenu from './components/layout/mobile-menu/Mobile-menu';
 import Landing from './components/content/landing/Landing';
 import About from './components/content/about/About';
+import Experience from './components/content/experience/Experience';
 
 AOS.init({
   mirror: true
@@ -24,6 +25,8 @@ const routes = (
     <div>
       <Landing/>
       <MobileMenu/>
+      <About/>
+      <Experience/>
     </div>
   </BrowserRouter>
 );

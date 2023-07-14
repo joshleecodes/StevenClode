@@ -1,14 +1,7 @@
 //imports
 @import './components/layout/settings.scss';
 @import './components/layout/base.scss';
-@import './components/content/landing/Landing.scss';
 @import './components/layout/mobile-menu/mobile-menu.scss';
-
-body {
-  margin: 0;
-  font-family: "Karantina";
-  color: #C9EDDC;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
+@import './components/content/landing/Landing.scss';
+@import './components/content/about/About.scss';
+@import './components/content/experience/Experience.scss';

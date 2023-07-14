@@ -1,7 +1,13 @@
-TO DO:
+MOBILE TO DO:
+- PROJECT SECTION
+- CONTACT SECTION
+- FOOTER SECTION
+- MOBILE MENU LINKS
 
+DESKTOP TO DO:
+- MEDIA QUERIES
+- MENU BAR
 
 COMPLETED THIS SESSION: 
-- Mobile menu
-- Set up bases + settings scss partials
-- add animation library
+- ABOUT SECTION
+- EXPERIENCE SECTION

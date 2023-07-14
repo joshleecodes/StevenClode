@@ -7,12 +7,26 @@ html {
 }
 
 body {
-    width: 100%;
+    font-family: "Karantina";
     font-size: $m-size;
     font-weight: 300;
     color: $mint;
+    width: 100%;
     padding: 0;
     margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    color: $yellow;
+    font-size: $xxl-size;
+    font-weight: 400;
+    margin: 0;
+}
+
+p {
+    font-size: $title;
 }
 
 .modal-open {
@@ -34,15 +48,6 @@ button:disabled {
 
 input:focus::placeholder {
     color: transparent;
-}
-
-h2 {
-    font-size: $mobile-title;
-    letter-spacing: $xs-size;
-}
-
-object{
-    pointer-events: none;
 }
 
 //large tablets
