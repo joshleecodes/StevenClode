@@ -7,7 +7,7 @@ import SiteLogo from './../../../assets/imgs/svg/site-logo.svg';
 
 export default () => (
   
-    <div className="landing-wrapper">
+    <div className="landing-wrapper" id='landing-content'>
       <div className="site-logo-wrapper">
         <img className="site-logo" src={SiteLogo}/>
       </div>

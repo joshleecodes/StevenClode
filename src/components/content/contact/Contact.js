@@ -2,7 +2,7 @@ import React from 'react';
 
 
 export default () => (
-    <div id="contact-content" className="contact-wrapper" >
+    <div className="contact-wrapper" id="contact-content">
         <div className="contact-title-wrapper">
             <h1 className="contact-title">CONTACT</h1>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 
 export default () => (
-    <div className='projects-wrapper'>
+    <div className='projects-wrapper' id='projects-content'>
         <div className='projects-title-wrapper'>
             <h1>PROJECTS</h1>
         </div>
