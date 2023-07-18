@@ -10,6 +10,6 @@ export default () => (
             <p className="contact-text">Want to work together or find out more about my projects?</p>
             <p className="contact-text">Drop me a message and I'll be happy to arrange a chat.</p>            
         </div>
-        <a className="contact-button__mobile" href="mailto: joshlee.dev@gmail.com">GET IN TOUCH</a>  
+        <a className="contact-button__mobile" href="mailto: stevenclode@gmail.com">GET IN TOUCH</a>  
     </div>
 );

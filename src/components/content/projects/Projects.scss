@@ -1,32 +1,17 @@
 .projects-wrapper {
     background-color: #393E46;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 0 10vw;
+    padding: 5vh 10vw;
   }
 
-  .featured-project-title {
-    margin-bottom: 0;
-  }
+.projects-title-wrapper {
+  padding-bottom: 2vh;
+}
 
-  .featured-project {
-    background-color: $mint;
-    width: 80vw;
-    height: 50vh;
-  }
-
-  .project-list-button {
-    display: flex;
-    padding: 1vh 6vw;
-    color: $dark-blue;
-    background-color: $yellow;
-    font-weight: 400;
-    font-size: $l-size;
-    border: 1px solid $yellow;
-    margin-top: 5vh;
-    width: fit-content;
-    align-self: center;
-  }
+.project-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

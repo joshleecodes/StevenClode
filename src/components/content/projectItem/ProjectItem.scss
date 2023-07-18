@@ -1,0 +1,34 @@
+.project-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: $yellow;
+    border-top: 1.2vh solid $dark-blue;
+}
+
+
+.project-img{
+    height: inherit;
+    width: 80vw;
+    flex-grow: 0;
+    object-fit: cover;
+    border-top: 2px solid $yellow;
+}
+
+.project-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: $dark-blue;
+
+}
+
+.project-item-title {
+    background-color: $yellow;
+    color: $dark-blue;
+    padding: 1vh 1vw;
+    margin: 0;
+}
+
+.body-section{
+    margin: 2vh 4vw;
+}
