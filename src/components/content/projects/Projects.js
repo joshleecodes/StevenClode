@@ -2,7 +2,6 @@ import React from 'react';
 
 //asset imports
 import ProjectItem from '../projectItem/ProjectItem';
-import FeaturedProject from '../featuredProject/FeaturedProject';
 import ProjectData from './../../../assets/projects.json';
 
 export default class Projects extends React.Component {
@@ -28,17 +27,6 @@ export default class Projects extends React.Component {
                 description={project.description} 
                 descriptionTwo={project.descriptionTwo}
             />
-            if(project.featured === "true") {
-                let tempfeaturedProject = 
-                    <FeaturedProject
-                        key={project.id}
-                        title={project.title}
-                        image={project.image}
-                        description={project.description}
-                        descriptionTwo={project.descriptionTwo}
-                    />
-                featuredProject.push(tempfeaturedProject);
-            }
             return projectItem;
         }) 
         this.setState({featuredProject, projectData, projectList: projectData});

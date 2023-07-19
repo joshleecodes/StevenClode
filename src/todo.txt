@@ -1,12 +1,14 @@
 MOBILE TO DO:
-
-
+- add more symbols as design elements
+- add animations to sections
 
 DESKTOP TO DO:
 - MEDIA QUERIES
 - MENU BAR
 
 COMPLETED THIS SESSION:
-- CHANGE EMAIL TO STEVENS
-- PROJECT LIST SECTION IMPLMENTED WITH COLLAPSIBLE SECTIONS
-- FIX MOBILE BURGER MENU
+- increased the line height for the body text
+- fixed bug in mobile-menu causing runtime error
+- add arrow to project section collapsibles
+- Clean up code
+- added arrow on landing page for design element

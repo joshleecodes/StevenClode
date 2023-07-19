@@ -5,8 +5,18 @@
     border-top: 1.2vh solid $dark-blue;
 }
 
+.project-item-arrow-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
-.project-img{
+.project-item-arrow {
+    width: 6vw;
+}
+
+
+.project-img {
     height: inherit;
     width: 80vw;
     flex-grow: 0;
@@ -22,6 +32,13 @@
 
 }
 
+.project-item-title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
 .project-item-title {
     background-color: $yellow;
     color: $dark-blue;
@@ -29,6 +46,6 @@
     margin: 0;
 }
 
-.body-section{
+.body-section {
     margin: 2vh 4vw;
 }

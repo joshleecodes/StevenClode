@@ -26,7 +26,7 @@ export default class MobileMenu extends React.Component {
         document.getElementsByClassName("menu-close")[0].style.display = "block";
         document.getElementById("mobile-menu").classList.add("mobile-menu__wrapper-open");
         document.body.style.overflow = "hidden";
-        this.setState({menuOpen: true}, ()=> this.handleSectionHighlight());
+        this.setState({menuOpen: true});
     }   
 
     handleCloseMenu(){
@@ -41,29 +41,6 @@ export default class MobileMenu extends React.Component {
         }
 
         this.setState({menuOpen: false});
-    }
-    
-    handleSectionHighlight(){
-        let offset = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-        let currentSection = this.state.currentSection; 
-        let currentSectionClassList = document.getElementById(currentSection).classList;
-
-        if(offset <= 399){
-            currentSection = 'menu-landing';
-        }
-        else if(offset >= 400 && offset < 999){
-            document.getElementById("menu-home").classList.add('menu-link__active');
-            currentSection = 'menu-home';
-        } 
-        else if(offset >= 1000 && offset < 1599){
-            document.getElementById("menu-projects").classList.add('menu-link__active');
-            currentSection = 'menu-projects';
-        }
-        else if(offset >= 1600){
-            document.getElementById("menu-contact").classList.add('menu-link__active');
-            currentSection = 'menu-contact';
-        }
-        this.setState({currentSection});
     }
 
     render(){
@@ -86,7 +63,7 @@ export default class MobileMenu extends React.Component {
                 {this.state.menuOpen &&
                     <div className="menu-list__wrapper" data-aos="flip-right" data-aos-duration="200" data-aos-mirror="true">
                         <div className="menu-list">
-                            <NavLink className="" to="#landing-content" onClick={this.handleCloseMenu}><img className="menu__site-icon" id="menu-landing" src={SiteLogo} /></NavLink>
+                            <NavLink className="menu-option" to="#landing-content" onClick={this.handleCloseMenu}><img className="menu__site-icon" id="menu-landing" src={SiteLogo} /></NavLink>
                             <div className="menu-option">
                                 <NavLink className="menu-link" id="menu-about" to="#about-content" onClick={this.handleCloseMenu}>ABOUT</NavLink>
                             </div>

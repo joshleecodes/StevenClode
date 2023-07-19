@@ -9,7 +9,7 @@ export default () => (
         </div>
         <div className="footer-signature-wrapper">
             <p className="footer-designed footer-text">Designed & Developed by</p>
-            <p className="footer-signature footer-text">Josh Lee &copy;2020</p>
+            <p className="footer-signature footer-text">Josh Lee &copy;2023</p>
         </div>
     </div>
 );

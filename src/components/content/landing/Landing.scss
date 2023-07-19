@@ -3,6 +3,28 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
+    justify-content: center;
+}
+
+.landing-content-wrapper {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-grow: 3;
+}
+
+.landing-arrow-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 80vw;
+    padding-left: 10vw;
+    flex-grow: 0.1;
+}
+
+.landing-arrow {
+    width: 10vw;
+    align-self: flex-start;
 }
