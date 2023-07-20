@@ -9,7 +9,6 @@ html {
 body {
     font-family: "Karantina";
     font-size: $m-size;
-    line-height: $l-size;
     font-weight: 300;
     color: $mint;
     width: 100%;
@@ -33,7 +32,9 @@ h2 {
 }
 
 p {
-    font-size: $title;
+    font-family: "Montserrat";
+    font-size: $m-size;
+    line-height: $body;
 }
 
 .modal-open {

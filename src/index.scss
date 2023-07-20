@@ -8,4 +8,10 @@
 @import './components/content/projects/Projects.scss';
 @import './components/content/projectItem/ProjectItem.scss';
 @import './components/content/contact/Contact.scss';
+@import './components/layout/header/Header.scss';
 @import './components/layout/footer/Footer.scss';
+
+.sticky {
+    position: sticky;
+    top: 0;
+}

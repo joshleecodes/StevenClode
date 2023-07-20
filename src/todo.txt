@@ -7,8 +7,7 @@ DESKTOP TO DO:
 - MENU BAR
 
 COMPLETED THIS SESSION:
-- increased the line height for the body text
-- fixed bug in mobile-menu causing runtime error
-- add arrow to project section collapsibles
-- Clean up code
-- added arrow on landing page for design element
+- changed body font to Montserrat
+- implemented dynamic rendering on window resize and varied devices
+- implemented header section with navigation
+- 

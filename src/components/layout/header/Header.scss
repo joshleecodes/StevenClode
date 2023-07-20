@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: $dark-blue;
+    background-clip: padding-box;
+    z-index: 2;
+    width: 95%;
+    height: 10vh;
+    border-bottom: 1px solid $mint;
+    padding: 0 2.5%;
+}
+
+.header__border {
+    border-bottom: 1px solid $yellow;
+}
+
+.header__container, .header__content-section, .header__content-section__site-link-wrapper
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+}
+
+.header__logo {
+    height: 5vh;
+    cursor: pointer;
+}
+
+////////// CONTENT SECTION
+
+.header__content-section__site-link {
+    padding: $s-size;
+    letter-spacing: $xs-size;
+}
+
+.header__content-section {
+    justify-content: space-between;
+    
+}
+
+.header__content-section__site-link-wrapper {
+    padding: 0 $l-size;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__content-section__site-link {
+    text-decoration: none;
+    color: $dark-blue;
+    transition: color 0.2s ease-in-out;
+}
+
+.header__content-section__site-link:hover {
+    color: $yellow;
+}
+
+.site-link-active {
+    color: white;
+    background-color: $yellow;
+    border: 1px solid $yellow;
+}
+
+.site-link-active:hover {
+    color:$yellow;
+    background-color: white;
+    border: 1px solid $yellow;
+}
+
+.header__content-section__social-link-wrapper {
+    padding: $xs-size;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__content-section__social-link {
+    height: $xl-size;
+}
+
+.social-link-icon {
+    width: 4.3rem;
+    padding: 0 $xs-size;
+}
