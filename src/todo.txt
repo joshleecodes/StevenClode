@@ -1,13 +1,10 @@
 MOBILE TO DO:
-- add more symbols as design elements
 - add animations to sections
 
 DESKTOP TO DO:
+- PROJECT SECTION
 - MEDIA QUERIES
 - MENU BAR
 
 COMPLETED THIS SESSION:
-- changed body font to Montserrat
-- implemented dynamic rendering on window resize and varied devices
-- implemented header section with navigation
-- 
+- Design elements created and added

@@ -24,11 +24,11 @@ import Contact from './components/content/contact/Contact';
 import Header from './components/layout/header/Header';
 import Footer from './components/layout/footer/Footer';
 
+
 //initialise animation library
 AOS.init({
   mirror: true
 });
-
 
 
 //handle resize

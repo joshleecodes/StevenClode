@@ -1,5 +1,6 @@
 //colour variables
 $dark-blue: #393E46;
+$darker-blue: #30343A;
 $yellow: #FACF39;
 $mint: #C9EDDC;
 
@@ -8,7 +9,6 @@ $xxs-size: 0.25rem;
 $xs-size: 0.5rem;
 $s-size: 1.2rem;
 $m-size: 1.6rem;
-$body: 2.2rem;
 $title: 2.5rem;
 $l-size: 2.8rem;
 $xl-size: 4.5rem;
@@ -17,6 +17,9 @@ $xxl-size: 5rem;
 //font variables
 $title-weight: 400;
 $body-weight: 300;
+$desktop-body: 2rem;
+$desktop-body-height: 2.8rem;
+$mobile-body-height: 2.2rem;
 
 //device variables
 $desktop-breakpoint: 45rem;

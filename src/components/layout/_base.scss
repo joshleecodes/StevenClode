@@ -16,6 +16,7 @@ body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x:hidden
 }
 
 h1 {
@@ -34,7 +35,14 @@ h2 {
 p {
     font-family: "Montserrat";
     font-size: $m-size;
-    line-height: $body;
+    line-height: $mobile-body-height;
+}
+
+.hexagon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
 }
 
 .modal-open {
@@ -60,8 +68,17 @@ input:focus::placeholder {
 
 //large tablets
 @media (min-width:800px) {
+    body {
+        font-size: $desktop-body;
+    }
+
     h2 {
         font-size: 3rem;
+    }
+    
+    p {
+        font-size: $desktop-body;
+        line-height: $desktop-body-height;
     }
 }
 

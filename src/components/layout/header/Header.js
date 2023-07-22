@@ -1,7 +1,6 @@
 import React from 'react';
 import { HashLink as NavLink } from 'react-router-hash-link';
 import { scrollToTop, scrollTo } from './../../../util/scrollHelper';
-
 import SiteLogo from './../../../assets/imgs/svg/site-logo.svg';
 
 
@@ -55,7 +54,7 @@ export default class Header extends React.Component {
 
     render() {
         return (
-            <div id="header" className="header" data-aos="fade" data-aos-easing="ease-in-sine" data-aos-duration="800" data-aos-delay="800" data-aos-once="true" data-aos-anchor-placement="top-bottom">
+            <div id="header" className="header">
                 <div className="header__container">
                     <NavLink to="#landing-content" onClick={scrollToTop}>
                         <img 

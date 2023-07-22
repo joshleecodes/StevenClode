@@ -1,9 +1,21 @@
 .experience-wrapper {
-    background-color: #393E46;
+    background-color: $darker-blue;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 0 10vw;
-  }
+    overflow: hidden;
+}
+
+.experience-content-wrapper {
+  padding: 0 10vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow-bottom {
+  width: 90vw;
+  padding: 0.75vh 0 0 10vw;
+}
+
+.hexagon-top {
+  width: 35vw;
+  padding-bottom: 0.75vh;
+}
