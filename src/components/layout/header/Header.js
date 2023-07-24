@@ -4,6 +4,10 @@ import { scrollToTop, scrollTo } from './../../../util/scrollHelper';
 import SiteLogo from './../../../assets/imgs/svg/site-logo.svg';
 
 
+//asset imports
+import CV from './../../../assets/CV.pdf'
+
+
 export default class Header extends React.Component {
     constructor(props) {
         super(props);
@@ -74,6 +78,7 @@ export default class Header extends React.Component {
                             <NavLink className="header__content-section__site-link" id="#nav-contact" to="#footer-content"  onClick={scrollTo}>CONTACT</NavLink>
                         </div>
                     </div>
+                    <NavLink className="header__content-section__site-link header-cv" id="menu-cv" to={CV} target="_blank" onClick={this.handleCloseMenu}>OPEN CV</NavLink>
                 </div>
                 <div className="header__border"></div>
             </div>

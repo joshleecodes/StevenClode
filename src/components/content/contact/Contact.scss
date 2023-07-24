@@ -18,7 +18,7 @@
     padding-bottom: 5vh;
 }
 
-.contact-button__mobile {
+.contact-button{
     padding: 1vh 6vw;
     color: $dark-blue;
     background-color: $yellow;
@@ -32,6 +32,28 @@
     text-decoration: none;
 }
 
+.contact-button:hover {
+    color: $mint;
+    background-color: $dark-blue;
+    border: 1px solid $mint;
+}
+
 .lines {
     width: 100vw;
+}
+
+@media  (min-width: 1280px) {
+    .contact-wrapper {
+        min-height: 88vh;
+    }
+
+    .contact-content-wrapper {
+        padding: 5vh 0;
+    }
+
+    .lines {
+        padding-top: 5vh;
+        height: 20vh;
+    }
+
 }

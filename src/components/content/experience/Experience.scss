@@ -2,15 +2,21 @@
     background-color: $darker-blue;
     min-height: 100vh;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .experience-content-wrapper {
   padding: 0 10vw;
   display: flex;
   flex-direction: column;
+  
 }
 
 .arrow-bottom {
+  display: flex;
+  flex-direction: column;
   width: 90vw;
   padding: 0.75vh 0 0 10vw;
 }
@@ -18,4 +24,24 @@
 .hexagon-top {
   width: 35vw;
   padding-bottom: 0.75vh;
+}
+
+
+@media  (min-width: 1280px) {
+  .arrow-bottom {
+    width: 50vw;
+    justify-self: flex-end;
+    align-self: flex-end;
+  }
+
+  .arrow-bottom-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .hexagon-top {
+    width: 17.5vw;
+  }
+
 }

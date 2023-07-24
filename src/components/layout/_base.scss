@@ -84,6 +84,10 @@ input:focus::placeholder {
 
 // PC
 @media (min-width: 1280px) {
+    h1 {
+        font-size: $desktop-title;
+    }
+
     h2 {
         font-size: $title;
     }

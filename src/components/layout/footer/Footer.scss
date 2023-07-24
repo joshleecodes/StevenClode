@@ -25,3 +25,17 @@
     font-size: $s-size;
     font-weight: bold;
 }
+
+@media  (min-width: 1280px) {
+    .footer-wrapper {
+        min-height: 12vh;
+    }
+
+    .site-logo{
+        width: 5vw;
+    }
+
+    .footer-text {
+        font-size: $m-size;
+    }
+}

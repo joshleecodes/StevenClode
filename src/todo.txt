@@ -2,9 +2,10 @@ MOBILE TO DO:
 - add animations to sections
 
 DESKTOP TO DO:
-- PROJECT SECTION
-- MEDIA QUERIES
-- MENU BAR
+- Header text, icon and border sizing
+- Check header highlight ranges
+- add scroll to top arrow
+
 
 COMPLETED THIS SESSION:
-- Design elements created and added
+- Project section for desktop created, media queries of existing components completed for desktop, Header bar styled, Header CV button added, media queries for design elements.

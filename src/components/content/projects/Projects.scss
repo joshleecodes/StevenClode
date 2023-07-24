@@ -24,3 +24,22 @@
   width: 35vw;
   padding-top: 0.75vh;
 }
+
+
+
+@media  (min-width: 1280px) {
+  .hexagon-bottom {
+    width: 17.5vw;
+  }
+
+  .projects-content-wrapper {
+    width: 80vw;
+  }
+
+  .project-list-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 2vh;
+  }
+}

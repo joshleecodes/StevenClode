@@ -24,6 +24,10 @@ import Contact from './components/content/contact/Contact';
 import Header from './components/layout/header/Header';
 import Footer from './components/layout/footer/Footer';
 
+//asset imports
+import SiteIcon from './assets/imgs/svg/site-logo.svg';
+import SiteHoverIcon from './assets/imgs/svg/site-hover-icon.svg';
+
 
 //initialise animation library
 AOS.init({
@@ -57,7 +61,7 @@ let setHeader = () => {
 }
 
 let handleStickyHeader = (initialOffSet) => {
-    if(window.pageYOffset >= initialOffSet) {
+    if(window.pageYOffset >= initialOffSet-1) {
         header.classList.add("sticky");
     } else {
         header.classList.remove("sticky");
@@ -70,6 +74,23 @@ if(isDesktop == true){
     }
 }
 
+let handleIconHover = (e) => {
+  let icon = e.currentTarget.id;
+
+  if (icon == "nav-landing") { 
+      e.currentTarget.src = SiteHoverIcon;
+  }
+
+}
+
+let handleIconHoverOff = (e) => {
+  let icon = e.currentTarget.id;
+  
+  if (icon == "nav-landing") {
+      e.currentTarget.src = SiteIcon;
+  }
+
+}
 
 //set route structure to be rendered
 const routes = (
@@ -79,6 +100,8 @@ const routes = (
       { isDesktop
         ?
         <Header
+          handleIconHover={handleIconHover} 
+          handleIconHoverOff={handleIconHoverOff}
           setHeaderOffSet={setHeaderOffSet}
           setHeader={setHeader}
         />

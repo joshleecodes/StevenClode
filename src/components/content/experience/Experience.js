@@ -4,7 +4,9 @@ import HexagonTop from './../../../assets/imgs/svg/hexagon-top.svg';
 
 export default () => (
     <div className='experience-wrapper' id='experience-content'>
-      <img className='arrow-bottom' src={ArrowBottom} />
+      <div className='arrow-bottom-wrapper'>
+        <img className='arrow-bottom' src={ArrowBottom} />
+      </div>
       <div className='experience-content-wrapper'>
         <div className='experience-title-wrapper'>
           <h1>EXPERIENCE</h1>
