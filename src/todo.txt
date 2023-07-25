@@ -1,11 +1,11 @@
-MOBILE TO DO:
+GENERAL TO DO: 
 - add animations to sections
 
+
+MOBILE TO DO:
+
 DESKTOP TO DO:
-- Header text, icon and border sizing
-- Check header highlight ranges
-- add scroll to top arrow
 
 
 COMPLETED THIS SESSION:
-- Project section for desktop created, media queries of existing components completed for desktop, Header bar styled, Header CV button added, media queries for design elements.
+adjusted header text, icon and border sizing, adjusted header highlight ranges, added scroll to top arrow

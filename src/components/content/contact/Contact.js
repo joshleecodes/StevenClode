@@ -1,5 +1,9 @@
 import React from 'react';
+import { HashLink as NavLink } from 'react-router-hash-link';
+
+//asset imports
 import Lines from '../../../assets/imgs/svg/lines.svg';
+import UpArrow from '../../../assets/imgs/svg/up-arrow.svg';
 
 export default () => (
     <div className="contact-wrapper" id="contact-content">
@@ -14,5 +18,6 @@ export default () => (
             </div>
             <a className="contact-button" href="mailto: stevenclode@gmail.com">GET IN TOUCH</a>
         </div>
+        <NavLink to="#landing-content"><img className='up-arrow' src={UpArrow}/></NavLink>
     </div>
 );

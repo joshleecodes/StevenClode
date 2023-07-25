@@ -3,7 +3,6 @@ import { HashLink as NavLink } from 'react-router-hash-link';
 import { scrollToTop, scrollTo } from './../../../util/scrollHelper';
 import SiteLogo from './../../../assets/imgs/svg/site-logo.svg';
 
-
 //asset imports
 import CV from './../../../assets/CV.pdf'
 
@@ -38,17 +37,17 @@ export default class Header extends React.Component {
             document.getElementById("#nav-about").classList.add('site-link-active');
             currentSection = "#nav-about";
         }
-        else if(offset >= 1501 && offset < 2600) {
+        else if(offset >= 1501 && offset < 2500) {
             if(currentSection != "nav-landing") { currentSectionClassList.toggle("site-link-active"); }
             document.getElementById("#nav-experience").classList.add('site-link-active');
             currentSection = "#nav-experience";
         }
-        else if(offset >= 2601 && offset < 4200) {
+        else if(offset >= 2501 && offset < 5500) {
             if(currentSection != "nav-landing") { currentSectionClassList.toggle("site-link-active"); }
             document.getElementById("#nav-projects").classList.add('site-link-active');
             currentSection = "#nav-projects";
         }
-        else if(offset >= 4201) {
+        else if(offset >= 5501) {
             if(currentSection != "nav-landing") { currentSectionClassList.toggle("site-link-active"); }
             document.getElementById("#nav-contact").classList.add('site-link-active');
             currentSection = "#nav-contact";
@@ -83,5 +82,5 @@ export default class Header extends React.Component {
                 <div className="header__border"></div>
             </div>
         );
-    }
-} 
+    };
+};
