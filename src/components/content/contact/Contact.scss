@@ -42,6 +42,11 @@
     width: 100vw;
 }
 
+.up-arrow {
+    width: 4vh;
+    padding-bottom: 5vh;
+}
+
 @media  (min-width: 1280px) {
     .contact-wrapper {
         min-height: 88vh;
@@ -58,6 +63,6 @@
 
     .up-arrow {
         width: 4vh;
-        padding-top: 4vh;
+        padding-top: 6vh;
     }
 }
