@@ -5,9 +5,7 @@ import './index.scss';
 import { createRoot } from 'react-dom/client';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
-//animation library imports
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 //font imports
 import "@fontsource/karantina/300.css";
@@ -27,12 +25,10 @@ import Footer from './components/layout/footer/Footer';
 //asset imports
 import SiteIcon from './assets/imgs/svg/site-logo.svg';
 import SiteHoverIcon from './assets/imgs/svg/site-hover-icon.svg';
-
-
-//initialise animation library
-AOS.init({
-  mirror: true
-});
+import DownArrow from './assets/imgs/svg/down-arrow.svg';
+import DownArrowHover from './assets/imgs/svg/down-arrow-alt.svg';
+import UpArrow from './assets/imgs/svg/up-arrow.svg';
+import UpArrowHover from './assets/imgs/svg/up-arrow-alt.svg';
 
 
 //handle resize
@@ -80,7 +76,12 @@ let handleIconHover = (e) => {
   if (icon == "nav-landing") { 
       e.currentTarget.src = SiteHoverIcon;
   }
-
+  else if (icon == "landing-arrow") {
+      e.currentTarget.src = DownArrowHover;
+  }
+  else if (icon == "up-arrow") {
+    e.currentTarget.src = UpArrowHover;
+  }
 }
 
 let handleIconHoverOff = (e) => {
@@ -89,14 +90,22 @@ let handleIconHoverOff = (e) => {
   if (icon == "nav-landing") {
       e.currentTarget.src = SiteIcon;
   }
-
+  else if (icon == "landing-arrow") {
+    e.currentTarget.src = DownArrow;
+  }
+  else if (icon == "up-arrow") {
+    e.currentTarget.src = UpArrow;
+  }
 }
 
 //set route structure to be rendered
 const routes = (
   <BrowserRouter>
     <div>
-      <Landing/>
+      <Landing
+          handleIconHover={handleIconHover} 
+          handleIconHoverOff={handleIconHoverOff}
+      />
       { isDesktop
         ?
         <Header
@@ -112,7 +121,10 @@ const routes = (
       <About/>
       <Experience/>
       <Projects/>
-      <Contact/>
+      <Contact
+        handleIconHover={handleIconHover} 
+        handleIconHoverOff={handleIconHoverOff}
+      />
       <Footer/>
     </div>
   </BrowserRouter>

@@ -1,13 +1,14 @@
 GENERAL TO DO: 
-- add animations to sections
-- UP/Down arrow highlights
+
+
+DESKTOP TO DO:
+
 
 MOBILE TO DO:
 
 
-DESKTOP TO DO:
-- non active header sections need to highlight when hovered
-- Project tile sizings
 
 COMPLETED THIS SESSION:
-- fix scroll to top arrow sizing
+- UP/Down arrow highlights
+- Project tile sizings
+- non active header sections need to highlight when hovered

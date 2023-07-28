@@ -23,7 +23,6 @@ export default class Header extends React.Component {
     }
 
     handleActiveSection() {
-        
        let offset = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
        let currentSection = this.state.currentSection;
        let currentSectionClassList = document.getElementById(this.state.currentSection).classList;
